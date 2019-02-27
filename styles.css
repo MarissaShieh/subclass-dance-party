@@ -34,11 +34,21 @@ body, a:link, a:visited, a:active{
   /* border:10px solid red;
   border-radius:10px;
   */
+  height: 50px;
+  width: 50px;
   position:absolute;
   content: url("starface.png");
 }
 
 .sideDancer{
+  height: 50px;
+  width: 50px;
   content: url("happyStar.gif");
+  position:absolute;
+}
+
+.happy{
+  /* border:10px solid red; */
+  border-radius:10px;
   position:absolute;
 }

@@ -1,5 +1,6 @@
 var makeSideDancer = function(top, left, timeBetweenSteps) {
-    this.$node = $('<span class="sideDancer"></span>');
+    this.$node = $('<span class="sideDancer happy"></span>');
+
     makeDancer.call(this, top, left, timeBetweenSteps);
 }
 
