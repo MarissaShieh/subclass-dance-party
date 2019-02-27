@@ -52,3 +52,12 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.dancer3{
+  /* border:10px solid red; */
+  height: 100px;
+  width: 100px;
+  border-radius:10px;
+  position:absolute;
+  content: url("fireworks.png");
+}
