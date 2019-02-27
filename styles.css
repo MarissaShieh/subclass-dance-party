@@ -35,6 +35,12 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   */
   position:absolute;
-  content: url("starsgif.gif");
-  background: transparent;
+  content: url("starface.png");
+}
+
+.sideDancer{
+  border:10px solid red;
+  border-radius:10px;
+  content: url("rainbowstar.jpeg");
+  position:absolute;
 }
