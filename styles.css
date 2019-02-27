@@ -39,8 +39,6 @@ body, a:link, a:visited, a:active{
 }
 
 .sideDancer{
-  border:10px solid red;
-  border-radius:10px;
-  content: url("rainbowstar.jpeg");
+  content: url("happyStar.gif");
   position:absolute;
 }

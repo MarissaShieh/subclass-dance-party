@@ -11,5 +11,5 @@ makeSideDancer.prototype.oldStep = makeDancer.prototype.step;
 
 makeSideDancer.prototype.step = function() {
   this.oldStep();
-  this.$node.show();
+  this.$node.fadeIn();
 }
