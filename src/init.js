@@ -27,6 +27,7 @@ $(document).ready(function() {
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
+    window.dancers.push(dancer);
   });
 
 
@@ -45,6 +46,7 @@ $('.sideStepButton').on('click', function(event) {
   );
   
   $('body').append(dancer1.$node);
+  window.dancers.push(dancer1);
 });
 
 
@@ -63,7 +65,18 @@ $('.upDownButton').on('click', function(event) {
   );
   
   $('body').append(dancer3.$node);
+  window.dancers.push(dancer3);
 });
+
+$('.lineup').on('click', function() {
+  var counts = [0,0,0];
+  window.dancers.forEach(element) {
+    if(element instanceof makeBlinkyDancer){
+      element.setPosition(counts[0], 10)
+      counts[0] += 15;
+    }
+  }
+})
 
 });
 
