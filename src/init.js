@@ -68,15 +68,16 @@ $('.upDownButton').on('click', function(event) {
   window.dancers.push(dancer3);
 });
 
-$('.lineup').on('click', function() {
+$('.lineUp').on('click', function() {
+  console.log(window.dancers);
   var counts = [0,0,0];
-  window.dancers.forEach(element) {
+  window.dancers.forEach(function(element) {
     if(element instanceof makeBlinkyDancer){
       element.setPosition(counts[0], 10)
       counts[0] += 15;
     }
-  }
-})
+  });
+});
 
 });
 
